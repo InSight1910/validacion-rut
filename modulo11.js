@@ -1,7 +1,5 @@
-const reverseString = (string) => {
-	let listString = string.split("");
-	return listString.reverse().join("");
-};
+const reverseString = (string) => 
+	string.split("").reverse().join("");
 const multiplayRut = (rut) => {
 	let x = 1;
 	let sum = 0;
@@ -36,4 +34,4 @@ const modulo11 = (rut) => {
 	return validation(rut, rest);
 };
 
-modulo11("rut");
+modulo11("<rut>");
